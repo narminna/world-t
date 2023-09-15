@@ -1,0 +1,96 @@
+.boxes-cnt {
+  padding: 50px;
+}
+.boxes-cnt .box-1 {
+  background-color: coral;
+  width: 267px;
+  height: 434px;
+}
+.boxes-cnt .box-1 .box-cnt {
+  padding: 16px;
+}
+.boxes-cnt .box-1 .box-cnt .top {
+  padding-top: 23px;
+  height: 100%;
+}
+.boxes-cnt .box-1 .box-cnt .top .sale {
+  background-color: red;
+  height: 74px;
+  width: 74px;
+  border-radius: 50%;
+  margin-bottom: 55px;
+}
+.boxes-cnt .box-1 .box-cnt .top .sale a {
+  text-decoration: none;
+  top: 50px;
+}
+.boxes-cnt .box-1 .box-cnt .top img {
+  height: 188px;
+  width: 188px;
+}
+.boxes-cnt .box-1 .box-cnt .top .price {
+  font-size: 18px;
+  color: white;
+}
+.boxes-cnt .box-1 .box-cnt .top .text {
+  font-size: 9px;
+  color: white;
+}
+.boxes-cnt .box-1 .box-cnt .name {
+  padding-bottom: 16px;
+}
+.boxes-cnt .box-1 .box-cnt .name a {
+  text-decoration: none;
+  color: #333;
+}
+.boxes-cnt .box-1 .box-cnt .name a .prd-name {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-right: 24px;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .price span {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month {
+  width: 119px;
+  height: 30px;
+  border: 1px solid #e60f0f;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #adadad;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month input {
+  display: none;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month input:checked + label {
+  background: red;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label {
+  display: flex;
+  padding: 5px 0;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 12px;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label:last-of-type {
+  border-right: 0;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label:hover {
+  background: #eee;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label:checked {
+  background: red;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label span {
+  white-space: nowrap;
+}/*# sourceMappingURL=style.css.map */

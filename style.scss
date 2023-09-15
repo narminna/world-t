@@ -1,0 +1,102 @@
+.boxes-cnt{
+    padding: 50px;
+    .box-1{        
+        background-color: coral;
+        width: 267px;
+        height: 434px;
+        .box-cnt{
+            padding: 16px;
+            .top{
+                padding-top: 23px;
+                height: 100%;
+                .sale{
+                    background-color: red;
+                    height: 74px;
+                    width: 74px;
+                    border-radius: 50%;
+                    margin-bottom: 55px;
+                    a{
+                        text-decoration: none;
+                        top: 50px;
+                    }
+                }
+                img{
+                    height: 188px;
+                    width: 188px;
+                }
+                .price{
+                    font-size: 18px;
+                    color: white;
+                }
+                .text{
+                    font-size: 9px;
+                    color: white;
+                }
+            }
+            .name{
+                padding-bottom: 16px;
+                a{
+                    text-decoration: none;
+                    color: #333;
+                    .prd-name{
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20px;
+                        padding-right: 24px;
+                    }
+                }
+            }
+            .price-cnt{
+                .price{
+                    span{
+                        font-size: 17px;
+                        font-weight: 700;
+                        color: #000;
+                    }
+                }
+                .credit{
+                    .month{
+                        width: 119px;
+                        height: 30px;
+                        border: 1px solid #e60f0f;
+                        border-radius: 4px;
+                        overflow: hidden;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 5px;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        background-color: #adadad;
+                        input{
+                            display: none;
+                            &:checked + label{
+                                background:red;
+                            }
+                        }
+                        label{
+                            display: flex;
+                            padding: 5px 0;
+                            border: 1px solid white;
+                            cursor: pointer;
+                            transition: all 0.3s;
+                            font-size: 12px;
+                            &:last-of-type{
+                                border-right: 0;
+                            }
+                            &:hover{
+                                background: #eee;
+                            }
+                            &:checked{
+                                background: red;
+                            }
+                            span{
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
