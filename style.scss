@@ -1,7 +1,9 @@
 .boxes-cnt{
     padding: 50px;
-    .box-1{        
-        background-color: coral;
+    .box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8{        
+        background-color: white;
+        border: 1px solid #b9afaf;
+        border-radius: 10px;
         width: 267px;
         height: 434px;
         .box-cnt{
@@ -9,6 +11,7 @@
             .top{
                 padding-top: 23px;
                 height: 100%;
+                position: relative;
                 .sale{
                     background-color: red;
                     height: 74px;
@@ -31,6 +34,46 @@
                 .text{
                     font-size: 9px;
                     color: white;
+                }
+                .right-top{
+                    .like-cnt{
+                        position: absolute;
+                        top: 6px;
+                        right: 16px;
+                        i{
+                            font-size: 24px;
+                        }
+                    }
+                }
+                .right-bottom{
+                    .color-pallete,{
+                        display: flex;
+                        position: absolute;
+                        top: 38px;
+                        right: 15px;
+                        flex-direction: column;
+                        align-items: center;
+                        cursor: pointer;
+                        span{
+                            border: 1px solid #e7e7e7;
+                            border-radius: 6px;
+                            height: 18px;
+                            width: 28px;
+                            visibility: visible;
+                            transition: height .2s;
+                            transition: margin .2s;
+                            cursor: pointer;
+                        }
+                        .color_items, .color_items2{
+                            margin-top: -6px;                            
+                        }
+                        .color_items{
+                            &:hover{
+                                margin-top: 0;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
                 }
             }
             .name{
@@ -58,7 +101,6 @@
                     .month{
                         width: 119px;
                         height: 30px;
-                        border: 1px solid #e60f0f;
                         border-radius: 4px;
                         overflow: hidden;
                         display: flex;
@@ -67,33 +109,56 @@
                         gap: 5px;
                         flex-direction: row;
                         flex-wrap: nowrap;
-                        background-color: #adadad;
+                        background-color: #eeeaea;
+                        height: 30px;
                         input{
                             display: none;
                             &:checked + label{
-                                background:red;
+                                background:rgb(255, 255, 255);
                             }
                         }
                         label{
                             display: flex;
                             padding: 5px 0;
-                            border: 1px solid white;
                             cursor: pointer;
                             transition: all 0.3s;
                             font-size: 12px;
-                            &:last-of-type{
-                                border-right: 0;
-                            }
+                            outline: #000;
+                            border-top: #000;
+                            border: 2px solid #eee;
                             &:hover{
                                 background: #eee;
-                            }
-                            &:checked{
-                                background: red;
                             }
                             span{
                                 white-space: nowrap;
                             }
                         }
+                    }
+                    .price-cnt{
+                        padding-top: 5px;
+                        margin-left: 15px;
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: #000;;
+                        .num{
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+            .bottom{
+                margin-top: 20px;
+                .basket{
+                    border: none;
+                    background-color: #8dc63f;
+                    border-radius: 5px;
+                    color: white;
+                    width: 221px;
+                    height: 38px;
+                    i, span{
+                        font-size: 14px;
                     }
                 }
             }

@@ -1,63 +1,99 @@
 .boxes-cnt {
   padding: 50px;
 }
-.boxes-cnt .box-1 {
-  background-color: coral;
+.boxes-cnt .box-1, .boxes-cnt .box-2, .boxes-cnt .box-3, .boxes-cnt .box-4, .boxes-cnt .box-5, .boxes-cnt .box-6, .boxes-cnt .box-7, .boxes-cnt .box-8 {
+  background-color: white;
+  border: 1px solid #b9afaf;
+  border-radius: 10px;
   width: 267px;
   height: 434px;
 }
-.boxes-cnt .box-1 .box-cnt {
+.boxes-cnt .box-1 .box-cnt, .boxes-cnt .box-2 .box-cnt, .boxes-cnt .box-3 .box-cnt, .boxes-cnt .box-4 .box-cnt, .boxes-cnt .box-5 .box-cnt, .boxes-cnt .box-6 .box-cnt, .boxes-cnt .box-7 .box-cnt, .boxes-cnt .box-8 .box-cnt {
   padding: 16px;
 }
-.boxes-cnt .box-1 .box-cnt .top {
+.boxes-cnt .box-1 .box-cnt .top, .boxes-cnt .box-2 .box-cnt .top, .boxes-cnt .box-3 .box-cnt .top, .boxes-cnt .box-4 .box-cnt .top, .boxes-cnt .box-5 .box-cnt .top, .boxes-cnt .box-6 .box-cnt .top, .boxes-cnt .box-7 .box-cnt .top, .boxes-cnt .box-8 .box-cnt .top {
   padding-top: 23px;
   height: 100%;
+  position: relative;
 }
-.boxes-cnt .box-1 .box-cnt .top .sale {
+.boxes-cnt .box-1 .box-cnt .top .sale, .boxes-cnt .box-2 .box-cnt .top .sale, .boxes-cnt .box-3 .box-cnt .top .sale, .boxes-cnt .box-4 .box-cnt .top .sale, .boxes-cnt .box-5 .box-cnt .top .sale, .boxes-cnt .box-6 .box-cnt .top .sale, .boxes-cnt .box-7 .box-cnt .top .sale, .boxes-cnt .box-8 .box-cnt .top .sale {
   background-color: red;
   height: 74px;
   width: 74px;
   border-radius: 50%;
   margin-bottom: 55px;
 }
-.boxes-cnt .box-1 .box-cnt .top .sale a {
+.boxes-cnt .box-1 .box-cnt .top .sale a, .boxes-cnt .box-2 .box-cnt .top .sale a, .boxes-cnt .box-3 .box-cnt .top .sale a, .boxes-cnt .box-4 .box-cnt .top .sale a, .boxes-cnt .box-5 .box-cnt .top .sale a, .boxes-cnt .box-6 .box-cnt .top .sale a, .boxes-cnt .box-7 .box-cnt .top .sale a, .boxes-cnt .box-8 .box-cnt .top .sale a {
   text-decoration: none;
   top: 50px;
 }
-.boxes-cnt .box-1 .box-cnt .top img {
+.boxes-cnt .box-1 .box-cnt .top img, .boxes-cnt .box-2 .box-cnt .top img, .boxes-cnt .box-3 .box-cnt .top img, .boxes-cnt .box-4 .box-cnt .top img, .boxes-cnt .box-5 .box-cnt .top img, .boxes-cnt .box-6 .box-cnt .top img, .boxes-cnt .box-7 .box-cnt .top img, .boxes-cnt .box-8 .box-cnt .top img {
   height: 188px;
   width: 188px;
 }
-.boxes-cnt .box-1 .box-cnt .top .price {
+.boxes-cnt .box-1 .box-cnt .top .price, .boxes-cnt .box-2 .box-cnt .top .price, .boxes-cnt .box-3 .box-cnt .top .price, .boxes-cnt .box-4 .box-cnt .top .price, .boxes-cnt .box-5 .box-cnt .top .price, .boxes-cnt .box-6 .box-cnt .top .price, .boxes-cnt .box-7 .box-cnt .top .price, .boxes-cnt .box-8 .box-cnt .top .price {
   font-size: 18px;
   color: white;
 }
-.boxes-cnt .box-1 .box-cnt .top .text {
+.boxes-cnt .box-1 .box-cnt .top .text, .boxes-cnt .box-2 .box-cnt .top .text, .boxes-cnt .box-3 .box-cnt .top .text, .boxes-cnt .box-4 .box-cnt .top .text, .boxes-cnt .box-5 .box-cnt .top .text, .boxes-cnt .box-6 .box-cnt .top .text, .boxes-cnt .box-7 .box-cnt .top .text, .boxes-cnt .box-8 .box-cnt .top .text {
   font-size: 9px;
   color: white;
 }
-.boxes-cnt .box-1 .box-cnt .name {
+.boxes-cnt .box-1 .box-cnt .top .right-top .like-cnt, .boxes-cnt .box-2 .box-cnt .top .right-top .like-cnt, .boxes-cnt .box-3 .box-cnt .top .right-top .like-cnt, .boxes-cnt .box-4 .box-cnt .top .right-top .like-cnt, .boxes-cnt .box-5 .box-cnt .top .right-top .like-cnt, .boxes-cnt .box-6 .box-cnt .top .right-top .like-cnt, .boxes-cnt .box-7 .box-cnt .top .right-top .like-cnt, .boxes-cnt .box-8 .box-cnt .top .right-top .like-cnt {
+  position: absolute;
+  top: 6px;
+  right: 16px;
+}
+.boxes-cnt .box-1 .box-cnt .top .right-top .like-cnt i, .boxes-cnt .box-2 .box-cnt .top .right-top .like-cnt i, .boxes-cnt .box-3 .box-cnt .top .right-top .like-cnt i, .boxes-cnt .box-4 .box-cnt .top .right-top .like-cnt i, .boxes-cnt .box-5 .box-cnt .top .right-top .like-cnt i, .boxes-cnt .box-6 .box-cnt .top .right-top .like-cnt i, .boxes-cnt .box-7 .box-cnt .top .right-top .like-cnt i, .boxes-cnt .box-8 .box-cnt .top .right-top .like-cnt i {
+  font-size: 24px;
+}
+.boxes-cnt .box-1 .box-cnt .top .right-bottom .color-pallete, .boxes-cnt .box-2 .box-cnt .top .right-bottom .color-pallete, .boxes-cnt .box-3 .box-cnt .top .right-bottom .color-pallete, .boxes-cnt .box-4 .box-cnt .top .right-bottom .color-pallete, .boxes-cnt .box-5 .box-cnt .top .right-bottom .color-pallete, .boxes-cnt .box-6 .box-cnt .top .right-bottom .color-pallete, .boxes-cnt .box-7 .box-cnt .top .right-bottom .color-pallete, .boxes-cnt .box-8 .box-cnt .top .right-bottom .color-pallete {
+  display: flex;
+  position: absolute;
+  top: 38px;
+  right: 15px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.boxes-cnt .box-1 .box-cnt .top .right-bottom .color-pallete span, .boxes-cnt .box-2 .box-cnt .top .right-bottom .color-pallete span, .boxes-cnt .box-3 .box-cnt .top .right-bottom .color-pallete span, .boxes-cnt .box-4 .box-cnt .top .right-bottom .color-pallete span, .boxes-cnt .box-5 .box-cnt .top .right-bottom .color-pallete span, .boxes-cnt .box-6 .box-cnt .top .right-bottom .color-pallete span, .boxes-cnt .box-7 .box-cnt .top .right-bottom .color-pallete span, .boxes-cnt .box-8 .box-cnt .top .right-bottom .color-pallete span {
+  border: 1px solid #e7e7e7;
+  border-radius: 6px;
+  height: 18px;
+  width: 28px;
+  visibility: visible;
+  transition: height 0.2s;
+  transition: margin 0.2s;
+  cursor: pointer;
+}
+.boxes-cnt .box-1 .box-cnt .top .right-bottom .color-pallete .color_items, .boxes-cnt .box-1 .box-cnt .top .right-bottom .color-pallete .color_items2, .boxes-cnt .box-2 .box-cnt .top .right-bottom .color-pallete .color_items, .boxes-cnt .box-2 .box-cnt .top .right-bottom .color-pallete .color_items2, .boxes-cnt .box-3 .box-cnt .top .right-bottom .color-pallete .color_items, .boxes-cnt .box-3 .box-cnt .top .right-bottom .color-pallete .color_items2, .boxes-cnt .box-4 .box-cnt .top .right-bottom .color-pallete .color_items, .boxes-cnt .box-4 .box-cnt .top .right-bottom .color-pallete .color_items2, .boxes-cnt .box-5 .box-cnt .top .right-bottom .color-pallete .color_items, .boxes-cnt .box-5 .box-cnt .top .right-bottom .color-pallete .color_items2, .boxes-cnt .box-6 .box-cnt .top .right-bottom .color-pallete .color_items, .boxes-cnt .box-6 .box-cnt .top .right-bottom .color-pallete .color_items2, .boxes-cnt .box-7 .box-cnt .top .right-bottom .color-pallete .color_items, .boxes-cnt .box-7 .box-cnt .top .right-bottom .color-pallete .color_items2, .boxes-cnt .box-8 .box-cnt .top .right-bottom .color-pallete .color_items, .boxes-cnt .box-8 .box-cnt .top .right-bottom .color-pallete .color_items2 {
+  margin-top: -6px;
+}
+.boxes-cnt .box-1 .box-cnt .top .right-bottom .color-pallete .color_items:hover, .boxes-cnt .box-2 .box-cnt .top .right-bottom .color-pallete .color_items:hover, .boxes-cnt .box-3 .box-cnt .top .right-bottom .color-pallete .color_items:hover, .boxes-cnt .box-4 .box-cnt .top .right-bottom .color-pallete .color_items:hover, .boxes-cnt .box-5 .box-cnt .top .right-bottom .color-pallete .color_items:hover, .boxes-cnt .box-6 .box-cnt .top .right-bottom .color-pallete .color_items:hover, .boxes-cnt .box-7 .box-cnt .top .right-bottom .color-pallete .color_items:hover, .boxes-cnt .box-8 .box-cnt .top .right-bottom .color-pallete .color_items:hover {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.boxes-cnt .box-1 .box-cnt .name, .boxes-cnt .box-2 .box-cnt .name, .boxes-cnt .box-3 .box-cnt .name, .boxes-cnt .box-4 .box-cnt .name, .boxes-cnt .box-5 .box-cnt .name, .boxes-cnt .box-6 .box-cnt .name, .boxes-cnt .box-7 .box-cnt .name, .boxes-cnt .box-8 .box-cnt .name {
   padding-bottom: 16px;
 }
-.boxes-cnt .box-1 .box-cnt .name a {
+.boxes-cnt .box-1 .box-cnt .name a, .boxes-cnt .box-2 .box-cnt .name a, .boxes-cnt .box-3 .box-cnt .name a, .boxes-cnt .box-4 .box-cnt .name a, .boxes-cnt .box-5 .box-cnt .name a, .boxes-cnt .box-6 .box-cnt .name a, .boxes-cnt .box-7 .box-cnt .name a, .boxes-cnt .box-8 .box-cnt .name a {
   text-decoration: none;
   color: #333;
 }
-.boxes-cnt .box-1 .box-cnt .name a .prd-name {
+.boxes-cnt .box-1 .box-cnt .name a .prd-name, .boxes-cnt .box-2 .box-cnt .name a .prd-name, .boxes-cnt .box-3 .box-cnt .name a .prd-name, .boxes-cnt .box-4 .box-cnt .name a .prd-name, .boxes-cnt .box-5 .box-cnt .name a .prd-name, .boxes-cnt .box-6 .box-cnt .name a .prd-name, .boxes-cnt .box-7 .box-cnt .name a .prd-name, .boxes-cnt .box-8 .box-cnt .name a .prd-name {
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
   padding-right: 24px;
 }
-.boxes-cnt .box-1 .box-cnt .price-cnt .price span {
+.boxes-cnt .box-1 .box-cnt .price-cnt .price span, .boxes-cnt .box-2 .box-cnt .price-cnt .price span, .boxes-cnt .box-3 .box-cnt .price-cnt .price span, .boxes-cnt .box-4 .box-cnt .price-cnt .price span, .boxes-cnt .box-5 .box-cnt .price-cnt .price span, .boxes-cnt .box-6 .box-cnt .price-cnt .price span, .boxes-cnt .box-7 .box-cnt .price-cnt .price span, .boxes-cnt .box-8 .box-cnt .price-cnt .price span {
   font-size: 17px;
   font-weight: 700;
   color: #000;
 }
-.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month {
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month, .boxes-cnt .box-2 .box-cnt .price-cnt .credit .month, .boxes-cnt .box-3 .box-cnt .price-cnt .credit .month, .boxes-cnt .box-4 .box-cnt .price-cnt .credit .month, .boxes-cnt .box-5 .box-cnt .price-cnt .credit .month, .boxes-cnt .box-6 .box-cnt .price-cnt .credit .month, .boxes-cnt .box-7 .box-cnt .price-cnt .credit .month, .boxes-cnt .box-8 .box-cnt .price-cnt .credit .month {
   width: 119px;
   height: 30px;
-  border: 1px solid #e60f0f;
   border-radius: 4px;
   overflow: hidden;
   display: flex;
@@ -66,31 +102,54 @@
   gap: 5px;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-color: #adadad;
+  background-color: #eeeaea;
+  height: 30px;
 }
-.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month input {
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month input, .boxes-cnt .box-2 .box-cnt .price-cnt .credit .month input, .boxes-cnt .box-3 .box-cnt .price-cnt .credit .month input, .boxes-cnt .box-4 .box-cnt .price-cnt .credit .month input, .boxes-cnt .box-5 .box-cnt .price-cnt .credit .month input, .boxes-cnt .box-6 .box-cnt .price-cnt .credit .month input, .boxes-cnt .box-7 .box-cnt .price-cnt .credit .month input, .boxes-cnt .box-8 .box-cnt .price-cnt .credit .month input {
   display: none;
 }
-.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month input:checked + label {
-  background: red;
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month input:checked + label, .boxes-cnt .box-2 .box-cnt .price-cnt .credit .month input:checked + label, .boxes-cnt .box-3 .box-cnt .price-cnt .credit .month input:checked + label, .boxes-cnt .box-4 .box-cnt .price-cnt .credit .month input:checked + label, .boxes-cnt .box-5 .box-cnt .price-cnt .credit .month input:checked + label, .boxes-cnt .box-6 .box-cnt .price-cnt .credit .month input:checked + label, .boxes-cnt .box-7 .box-cnt .price-cnt .credit .month input:checked + label, .boxes-cnt .box-8 .box-cnt .price-cnt .credit .month input:checked + label {
+  background: rgb(255, 255, 255);
 }
-.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label {
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label, .boxes-cnt .box-2 .box-cnt .price-cnt .credit .month label, .boxes-cnt .box-3 .box-cnt .price-cnt .credit .month label, .boxes-cnt .box-4 .box-cnt .price-cnt .credit .month label, .boxes-cnt .box-5 .box-cnt .price-cnt .credit .month label, .boxes-cnt .box-6 .box-cnt .price-cnt .credit .month label, .boxes-cnt .box-7 .box-cnt .price-cnt .credit .month label, .boxes-cnt .box-8 .box-cnt .price-cnt .credit .month label {
   display: flex;
   padding: 5px 0;
-  border: 1px solid white;
   cursor: pointer;
   transition: all 0.3s;
   font-size: 12px;
+  outline: #000;
+  border-top: #000;
+  border: 2px solid #eee;
 }
-.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label:last-of-type {
-  border-right: 0;
-}
-.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label:hover {
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label:hover, .boxes-cnt .box-2 .box-cnt .price-cnt .credit .month label:hover, .boxes-cnt .box-3 .box-cnt .price-cnt .credit .month label:hover, .boxes-cnt .box-4 .box-cnt .price-cnt .credit .month label:hover, .boxes-cnt .box-5 .box-cnt .price-cnt .credit .month label:hover, .boxes-cnt .box-6 .box-cnt .price-cnt .credit .month label:hover, .boxes-cnt .box-7 .box-cnt .price-cnt .credit .month label:hover, .boxes-cnt .box-8 .box-cnt .price-cnt .credit .month label:hover {
   background: #eee;
 }
-.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label:checked {
-  background: red;
-}
-.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label span {
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .month label span, .boxes-cnt .box-2 .box-cnt .price-cnt .credit .month label span, .boxes-cnt .box-3 .box-cnt .price-cnt .credit .month label span, .boxes-cnt .box-4 .box-cnt .price-cnt .credit .month label span, .boxes-cnt .box-5 .box-cnt .price-cnt .credit .month label span, .boxes-cnt .box-6 .box-cnt .price-cnt .credit .month label span, .boxes-cnt .box-7 .box-cnt .price-cnt .credit .month label span, .boxes-cnt .box-8 .box-cnt .price-cnt .credit .month label span {
   white-space: nowrap;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .price-cnt, .boxes-cnt .box-2 .box-cnt .price-cnt .credit .price-cnt, .boxes-cnt .box-3 .box-cnt .price-cnt .credit .price-cnt, .boxes-cnt .box-4 .box-cnt .price-cnt .credit .price-cnt, .boxes-cnt .box-5 .box-cnt .price-cnt .credit .price-cnt, .boxes-cnt .box-6 .box-cnt .price-cnt .credit .price-cnt, .boxes-cnt .box-7 .box-cnt .price-cnt .credit .price-cnt, .boxes-cnt .box-8 .box-cnt .price-cnt .credit .price-cnt {
+  padding-top: 5px;
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+}
+.boxes-cnt .box-1 .box-cnt .price-cnt .credit .price-cnt .num, .boxes-cnt .box-2 .box-cnt .price-cnt .credit .price-cnt .num, .boxes-cnt .box-3 .box-cnt .price-cnt .credit .price-cnt .num, .boxes-cnt .box-4 .box-cnt .price-cnt .credit .price-cnt .num, .boxes-cnt .box-5 .box-cnt .price-cnt .credit .price-cnt .num, .boxes-cnt .box-6 .box-cnt .price-cnt .credit .price-cnt .num, .boxes-cnt .box-7 .box-cnt .price-cnt .credit .price-cnt .num, .boxes-cnt .box-8 .box-cnt .price-cnt .credit .price-cnt .num {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
+.boxes-cnt .box-1 .box-cnt .bottom, .boxes-cnt .box-2 .box-cnt .bottom, .boxes-cnt .box-3 .box-cnt .bottom, .boxes-cnt .box-4 .box-cnt .bottom, .boxes-cnt .box-5 .box-cnt .bottom, .boxes-cnt .box-6 .box-cnt .bottom, .boxes-cnt .box-7 .box-cnt .bottom, .boxes-cnt .box-8 .box-cnt .bottom {
+  margin-top: 20px;
+}
+.boxes-cnt .box-1 .box-cnt .bottom .basket, .boxes-cnt .box-2 .box-cnt .bottom .basket, .boxes-cnt .box-3 .box-cnt .bottom .basket, .boxes-cnt .box-4 .box-cnt .bottom .basket, .boxes-cnt .box-5 .box-cnt .bottom .basket, .boxes-cnt .box-6 .box-cnt .bottom .basket, .boxes-cnt .box-7 .box-cnt .bottom .basket, .boxes-cnt .box-8 .box-cnt .bottom .basket {
+  border: none;
+  background-color: #8dc63f;
+  border-radius: 5px;
+  color: white;
+  width: 221px;
+  height: 38px;
+}
+.boxes-cnt .box-1 .box-cnt .bottom .basket i, .boxes-cnt .box-1 .box-cnt .bottom .basket span, .boxes-cnt .box-2 .box-cnt .bottom .basket i, .boxes-cnt .box-2 .box-cnt .bottom .basket span, .boxes-cnt .box-3 .box-cnt .bottom .basket i, .boxes-cnt .box-3 .box-cnt .bottom .basket span, .boxes-cnt .box-4 .box-cnt .bottom .basket i, .boxes-cnt .box-4 .box-cnt .bottom .basket span, .boxes-cnt .box-5 .box-cnt .bottom .basket i, .boxes-cnt .box-5 .box-cnt .bottom .basket span, .boxes-cnt .box-6 .box-cnt .bottom .basket i, .boxes-cnt .box-6 .box-cnt .bottom .basket span, .boxes-cnt .box-7 .box-cnt .bottom .basket i, .boxes-cnt .box-7 .box-cnt .bottom .basket span, .boxes-cnt .box-8 .box-cnt .bottom .basket i, .boxes-cnt .box-8 .box-cnt .bottom .basket span {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
