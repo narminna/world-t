@@ -7,7 +7,9 @@
         width: 267px;
         height: 434px;
         .box-cnt{
-            padding: 16px;
+            padding-top: 10px;
+            padding-right: 5px;
+            padding-left: 5px;
             .top{
                 padding-top: 23px;
                 height: 100%;
@@ -46,7 +48,7 @@
                     }
                 }
                 .right-bottom{
-                    .color-pallete,{
+                    .color-pallete{
                         display: flex;
                         position: absolute;
                         top: 38px;
@@ -160,8 +162,37 @@
                     i, span{
                         font-size: 14px;
                     }
+                    &:hover{
+                        background-color: #6c9730;
+                    }
                 }
             }
         }
+    }
+}
+.box-6{
+    .price-cnt{
+        padding-top: 20px;
+    }
+    .button-cnt{
+        padding-top: 20px;
+    }
+}
+.box-7, .box-8{
+    .button-cnt{
+        padding-top: 75px !important;
+    }
+    .basket{
+        background-color: #6b6b6e !important;
+    }
+}
+.box-5{
+    .button-cnt{
+        padding-top: 20px;
+    }
+}
+.box-2, .box-4{
+    .price-cnt{
+        padding-top: 20px;
     }
 }

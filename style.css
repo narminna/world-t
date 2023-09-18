@@ -9,7 +9,9 @@
   height: 434px;
 }
 .boxes-cnt .box-1 .box-cnt, .boxes-cnt .box-2 .box-cnt, .boxes-cnt .box-3 .box-cnt, .boxes-cnt .box-4 .box-cnt, .boxes-cnt .box-5 .box-cnt, .boxes-cnt .box-6 .box-cnt, .boxes-cnt .box-7 .box-cnt, .boxes-cnt .box-8 .box-cnt {
-  padding: 16px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 .boxes-cnt .box-1 .box-cnt .top, .boxes-cnt .box-2 .box-cnt .top, .boxes-cnt .box-3 .box-cnt .top, .boxes-cnt .box-4 .box-cnt .top, .boxes-cnt .box-5 .box-cnt .top, .boxes-cnt .box-6 .box-cnt .top, .boxes-cnt .box-7 .box-cnt .top, .boxes-cnt .box-8 .box-cnt .top {
   padding-top: 23px;
@@ -152,4 +154,29 @@
 }
 .boxes-cnt .box-1 .box-cnt .bottom .basket i, .boxes-cnt .box-1 .box-cnt .bottom .basket span, .boxes-cnt .box-2 .box-cnt .bottom .basket i, .boxes-cnt .box-2 .box-cnt .bottom .basket span, .boxes-cnt .box-3 .box-cnt .bottom .basket i, .boxes-cnt .box-3 .box-cnt .bottom .basket span, .boxes-cnt .box-4 .box-cnt .bottom .basket i, .boxes-cnt .box-4 .box-cnt .bottom .basket span, .boxes-cnt .box-5 .box-cnt .bottom .basket i, .boxes-cnt .box-5 .box-cnt .bottom .basket span, .boxes-cnt .box-6 .box-cnt .bottom .basket i, .boxes-cnt .box-6 .box-cnt .bottom .basket span, .boxes-cnt .box-7 .box-cnt .bottom .basket i, .boxes-cnt .box-7 .box-cnt .bottom .basket span, .boxes-cnt .box-8 .box-cnt .bottom .basket i, .boxes-cnt .box-8 .box-cnt .bottom .basket span {
   font-size: 14px;
+}
+.boxes-cnt .box-1 .box-cnt .bottom .basket:hover, .boxes-cnt .box-2 .box-cnt .bottom .basket:hover, .boxes-cnt .box-3 .box-cnt .bottom .basket:hover, .boxes-cnt .box-4 .box-cnt .bottom .basket:hover, .boxes-cnt .box-5 .box-cnt .bottom .basket:hover, .boxes-cnt .box-6 .box-cnt .bottom .basket:hover, .boxes-cnt .box-7 .box-cnt .bottom .basket:hover, .boxes-cnt .box-8 .box-cnt .bottom .basket:hover {
+  background-color: #6c9730;
+}
+
+.box-6 .price-cnt {
+  padding-top: 20px;
+}
+.box-6 .button-cnt {
+  padding-top: 20px;
+}
+
+.box-7 .button-cnt, .box-8 .button-cnt {
+  padding-top: 75px !important;
+}
+.box-7 .basket, .box-8 .basket {
+  background-color: #6b6b6e !important;
+}
+
+.box-5 .button-cnt {
+  padding-top: 20px;
+}
+
+.box-2 .price-cnt, .box-4 .price-cnt {
+  padding-top: 20px;
 }/*# sourceMappingURL=style.css.map */
